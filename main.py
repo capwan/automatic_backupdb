@@ -7,68 +7,69 @@ gui.FAILSAFE = False
 
 today = date.today()
 
-foldername = date.today().strftime('%d.%m.%y')
+foldername = date.today().strftime('%d.%m.%Y')
 
 # Moving mouse to "Attendance Management Program" & click
-gui.moveTo(80,874, duration=2)
-gui.click(80,874)
+gui.moveTo(81,1057, duration=2)
+gui.click(81,1057)
 
 # Moving mouse to "backup database" and click to button
-gui.moveTo(88,186, duration=2)
-gui.click(88,186)
+gui.moveTo(74,186, duration=2)
+gui.click(74,186)
 
 # Choose "This PC"
-gui.moveTo(580,410, duration=2)
-gui.click(580,410)
+gui.moveTo(724,446, duration=2)
+gui.click(724,446)
 
 # Scroll down to devices and drives
-gui.moveTo(1066,298, duration=2)
+gui.moveTo(1231,309, duration=2)
 gui.scroll(-250)
 
 # Choose "D" disk and click on it
-gui.moveTo(737,432, duration=2)
-gui.doubleClick(737,432)
+gui.moveTo(901,494, duration=2)
+gui.doubleClick(901,494)
 
 # Choose "NEW" folder and click on it
-gui.moveTo(717,263, duration=2)
-gui.doubleClick(717,263)
+gui.moveTo(862,304, duration=2)
+gui.doubleClick(862,304)
 
 # Choose "CARD_READER_CURRENT" folder and click on it
-gui.moveTo(712,256, duration=2)
-gui.doubleClick(712,256)
+gui.moveTo(885,303, duration=2)
+gui.doubleClick(885,303)
 
 # Choose "CURRENT_WORK" folder and click on it
-gui.moveTo(743,263, duration=2)
-gui.doubleClick(743,263)
+gui.moveTo(870,299, duration=2)
+gui.doubleClick(870,299)
 
 # Choose "CR backups" folder and click on it
-gui.moveTo(725,256, duration=2)
-gui.doubleClick(725,256)
+gui.moveTo(890,306, duration=2)
+gui.doubleClick(890,306)
 
 # Choose "April 2021" folder and click on it
-gui.moveTo(720,267, duration=2)
-gui.doubleClick(720,267)
+gui.moveTo(869,305, duration=2)
+gui.doubleClick(869,305)
 
 # Right-click and create new folder of today's date
-gui.moveTo(662,274, duration=2)
-gui.rightClick(662,274)
+gui.moveTo(829,540, duration=2)
+gui.rightClick(829,540)
 
 # "New" button
-gui.moveTo(888,573, duration=2)
-gui.click(888,573)
+gui.moveTo(1095,746, duration=2)
+gui.click(1095,746)
 
 # "Folder" button
-gui.moveTo(1030,577, duration=2)
-gui.doubleClick(1030,577)
+gui.moveTo(1207,753, duration=2)
+gui.doubleClick(1207,753)
 
 # Write today's date in the folder name
 gui.typewrite(foldername)
+gui.press('enter')
 
 # Enter to this folder
-gui.moveTo(755,266, duration=2)
-gui.doubleClick(755,266)
+gui.moveTo(861,538, duration=2)
+gui.doubleClick(861,538)
 
 # Save backup
-gui.moveTo(1028,528, duration=2)
-gui.click(1028,528)
+gui.moveTo(1181,606, duration=2)
+gui.doubleClick(1181,606)
 
