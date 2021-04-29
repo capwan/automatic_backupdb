@@ -49,25 +49,16 @@ gui.doubleClick(890,306)
 gui.moveTo(869,305, duration=2)
 gui.doubleClick(869,305)
 
-# Right-click and create new folder of today's date
-gui.moveTo(829,540, duration=2)
-gui.rightClick(829,540)
-
-# "New" button
-gui.moveTo(1095,746, duration=2)
-gui.click(1095,746)
-
-# "Folder" button
-gui.moveTo(1207,753, duration=2)
-gui.doubleClick(1207,753)
+# Create New folder
+gui.moveTo(1121,256, duration=2)
+gui.click(1121,256)
 
 # Write today's date in the folder name
 gui.typewrite(foldername)
 gui.press('enter')
 
 # Enter to this folder
-gui.moveTo(861,538, duration=2)
-gui.doubleClick(861,538)
+gui.press('enter')
 
 # Save backup
 gui.moveTo(1181,606, duration=2)
