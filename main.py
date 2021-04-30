@@ -1,6 +1,22 @@
 import time
 import pyautogui as gui
 from datetime import date
+import tkinter as tk
+from tkinter import Button
+
+root = tk.Tk()
+root.title("Automatic Backup Database") # program title
+root.geometry('300x200') # size of program
+
+btn = Button(root,
+        text="Run",
+        width=40, height=10,
+        bg="white", fg="green",command = root.quit)
+
+
+btn.pack(padx=100, pady=60)
+root.mainloop()
+
 
 gui.PAUSE = 2
 gui.FAILSAFE = False
@@ -63,4 +79,3 @@ gui.press('enter')
 # Save backup
 gui.moveTo(1181,606, duration=2)
 gui.doubleClick(1181,606)
-
