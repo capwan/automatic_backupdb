@@ -58,12 +58,12 @@ gui.moveTo(870,299, duration=2)
 gui.doubleClick(870,299)
 
 # Choose "CR backups" folder and click on it
-gui.moveTo(829,340, duration=2)
-gui.doubleClick(829,340)
+gui.moveTo(854,361, duration=2)
+gui.doubleClick(854,361)
 
-# Choose "May 2021" folder and click on it
-gui.moveTo(850,401, duration=2)
-gui.doubleClick(850,401)
+# Choose "June 2021" folder and click on it
+gui.moveTo(843,380, duration=2)
+gui.doubleClick(843,380)
 
 # Create New folder
 gui.moveTo(1121,256, duration=2)
