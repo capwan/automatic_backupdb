@@ -9,9 +9,9 @@ For startup bot you must run cmd by Administrator and write "python main.py".
 
 ## Instruction
 
-1. Create folder "automatic_backupdb".
+1. Create folder `automatic_backupdb`.
 2. Move `main.py` to this folder.
 3. Open cmd by Administrator.
 4. Write to cmd `../..`
-5. Write to cmd "Users\username\Desktop\automatic_backupdb"
+5. Write to cmd `Users\username\Desktop\automatic_backupdb`
 6. Write to cmd `python main.py` for startup program.
