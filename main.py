@@ -77,5 +77,5 @@ gui.press('enter')
 gui.press('enter')
 
 # Save backup
-gui.moveTo(1181,606, duration=2)
-gui.doubleClick(1181,606)
+gui.moveTo(1193,609, duration=2)
+gui.doubleClick(1193,609)
