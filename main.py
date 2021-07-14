@@ -42,8 +42,8 @@ gui.moveTo(1231,309, duration=2)
 gui.scroll(-250)
 
 # Choose "D" disk and click on it
-gui.moveTo(901,494, duration=2)
-gui.doubleClick(901,494)
+gui.moveTo(911,542, duration=2)
+gui.doubleClick(911,542)
 
 # Choose "NEW" folder and click on it
 gui.moveTo(862,304, duration=2)
