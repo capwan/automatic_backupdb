@@ -62,8 +62,8 @@ gui.moveTo(846,381, duration=2)
 gui.doubleClick(846,381)
 
 # Choose "September 2021" folder and click on it
-gui.moveTo(852,475, duration=2)
-gui.doubleClick(852,475)
+gui.moveTo(841,473, duration=2)
+gui.doubleClick(841,473)
 
 # Create New folder
 gui.moveTo(1121,256, duration=2)
